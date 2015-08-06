@@ -1,0 +1,2121 @@
+body {
+	background:rgba(255,255,255,1);
+    background:#fff;
+    z-index:1;
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif;
+}
+.fixed {
+    z-index:599999;
+}
+
+/* --------------------- Nav Bar --------------------- */
+nav.top-bar {
+    z-index:99;
+    box-shadow:0px 2px 3px rgba(0, 0, 0, 0.25);
+	    -webkit-box-shadow:0px 2px 3px rgba(0, 0, 0, 0.25);
+	    -moz-box-shadow:0px 2px 3px rgba(0, 0, 0, 0.25);
+	    -o-box-shadow:0px 2px 3px rgba(0, 0, 0, 0.25);
+    margin-bottom:0px;
+}
+li.name {
+    position:relative;
+}
+/* --------------------- Yes! Logos and Theme Title (in nav bar) --------------------- */
+div#name1 {
+    top:7px;
+    left:7px;
+    position:absolute;
+    height:31px;
+    width:18em;
+    padding:0;
+    opacity:1;
+}
+#name1 img {
+	height:31px;
+}
+div#name2 {
+    top:5px;
+    left:5px;
+    position:absolute;
+    height:35px;
+    width:18em;
+    padding:0;
+    opacity:0;
+}
+#name2 img {
+	height:35px;
+	margin-right:10px;
+}
+div#name2 h2 {
+    font-family: 'Alegreya', Georgia, Times, serif !important;
+	font-size:1.1em;
+    line-height:1.95;
+    font-weight:900;
+	letter-spacing:0;
+    color:#555;
+}
+
+/* --------------------- Main Splash Page --------------------- */
+/* splash page container */
+.opener {
+	height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    z-index: 100;
+    margin-bottom:.5em;
+	background-color:#000;
+}
+/* container for the chapter image and title */
+.opener div#title {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align:center;
+}
+/* container for the photo */
+.splashPhoto {
+	width:100%;
+	height:100%;
+	background-position: center;
+    	-webkit-background-position: center;
+    	-moz-background-position: center;
+    	-o-background-position: center;
+    background-repeat: no-repeat;
+    	-webkit- background-repeat: no-repeat;
+    	-moz- background-repeat: no-repeat;
+    	-o- background-repeat: no-repeat;
+    background-size: cover;
+    	-webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+    background-attachment: absolute;
+    opacity:0.5;/*photo is 50% transparent on a black background so reversed title stands out*/
+}
+/* main photos for each chapter */
+#eins{
+	background-image:url('../img/birdcagefree.jpg');
+}
+#zwei{
+	background-image:url('../img/empoweredbydebt.jpg');
+}
+#drei{
+	background-image:url('../img/georgebars.jpg');
+}
+#vier{
+	background-image:url('../img/wayout.jpg');
+}
+#funf{
+	background-image:url('../img/thegooddebts.jpg');
+}
+
+/* --------------------- Main Intro Head and Deck (on splash page) --------------------- */
+.opener div#title h1 {
+    position: absolute;
+    width:75%;
+	bottom:10%;
+    font-family: 'Alegreya', Georgia, Times, serif !important;
+	font-size:9em;
+    font-weight: 700;
+	text-align:left;
+   	line-height:1;
+    margin: 0 10% 2% 10%;
+	color:#f9f9f9;
+    letter-spacing:-2px;
+}
+/* the deck */
+.opener div#title h1 span {
+	display: block;
+	font-size: 25%;
+	font-family: 'Alegreya', Georgia, Times, serif !important;
+	font-weight: 400;
+	line-height:1.5;
+	padding-top: 0.7em;
+	letter-spacing:.01em;
+}
+/* the down arrow */
+.opener div#title h1 span img {
+	height:.85em;
+	padding-left:.5em;
+}
+
+/* --------------------- Fixed Flag (chapter title that appears from below splash page with scroll down --------------------- */
+.flag-header {
+	position: fixed;
+	z-index: 10;
+	top:80px;
+	width: auto;
+	left:0;
+	padding:16px 20px;
+	pointer-events: none;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	background:#000;
+    border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+		-moz-top-right-radius: 8px;
+    	-webkit-top-right-radius: 8px;
+    	-moz-bottom-right-radius: 8px;
+    	-webkit-bottom-right-radius: 8px;
+}
+.flag-header h3 {
+	margin: 0;
+	font-family: 'Alegreya', Georgia, Times, serif !important;
+	font-weight: 700;
+	font-size: 1em;
+	line-height: 1.25;
+	padding: .2em 0 .2em;
+	text-align:left;
+	color:#dae5e0;
+}
+.flag-header h3 span{
+	display:block;
+	font-family: 'Alegreya', Georgia, Times, serif !important;
+	padding-top:.25em;
+	font-weight: 300;
+	font-size:85%;
+	line-height: 1.15;
+	color:#e4e1c9;
+}
+
+/* --------------------- Headlines --------------------- */
+/* overline label */
+.lowertitle h5 {
+    font-size:1.25em;
+	letter-spacing:1px;
+	width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color:rgba(0,0,0,0.5);
+    font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	letter-spacing: 1px;
+	margin-top:3em;
+}
+/* main headline */
+div.title.lowertitle.main h2 {
+    font-family: 'Alegreya', Georgia, Times, serif !important;
+	font-weight:900;
+	text-transform: none;
+    font-size:4em;
+    margin:.4em auto 1em;
+    border-top:1px solid #aaa;
+    padding-top:.5em;
+    width:80%;
+}
+/* deck */
+div.title.lowertitle.main h2 span.subhed {
+    display:block;
+	font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	font-weight:300;
+	 font-size:66%;
+    margin:.4em auto 1em;
+ }
+/* tightens space when deck is above the main hed */
+div.title.lowertitle.main h2 span.subhed.tighten {
+    margin-bottom:.25em;
+ }
+/* secondary hedline */
+div.title.lowertitle h3 {
+    font-family: 'Alegreya', Georgia, Times, serif !important;
+	font-weight:900;
+	text-transform: none;
+    font-size:2.75em;
+    margin:3em auto 1em;
+    border-top:1px solid #aaa;
+    padding-top:.65em;
+    width:80%;
+}
+div.title.lowertitle.secondary h3 {
+    margin:0 auto;
+}
+/* Tertiary hedline that appears within copy */
+div.title.lowertitle.tertiary h4 {
+    font-size:1.85em;
+	margin:1em auto -1em;
+	font-weight:700;
+	border-top:0;
+	text-align:center;
+	width:70%;
+	color:#7b8ea3;
+}
+/* adjusts space when ertiary hedline appears above copy */
+div.title.lowertitle.tertiary.tight h4 {
+     font-size:2.25em;
+	 margin-top:0;
+	 margin-bottom:.85em;
+	 }
+/* hedline for inset boxes and grphic features */
+h3.subheading {
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	font-size:1.65em;
+    font-weight:700;
+    display:block;
+    text-align:center;
+    margin:1em auto 1.5em;
+    padding:.5em 0;
+    width:70%;
+   border-bottom:1px solid rgba(0,0,0,.3);
+}
+/* generic hedlines */
+div.title h3 {
+    text-align: center;
+    font-family: 'Alegreya', Georgia, Times, serif !important;
+	font-weight:900;
+    font-size:5.8em;
+    letter-spacing:0px;
+    line-height:1;
+    padding-bottom:1em;
+    color:rgba(34,34,34,1);
+    display:block;
+    z-index:-1;
+}
+div.title h2 {
+    margin:8% 0 35%;
+    text-align: center;
+    font-family: 'Alegreya', Georgia, Times, serif !important;
+	font-size:2.65em;
+    font-weight:900;
+    line-height:1;
+    text-transform:uppercase;
+    color:rgba(34,34,34,1);
+    display:block;
+    z-index:-1;
+}
+h1, h2, h3, h4, h5 {
+  	font-family: 'Alegreya', Georgia, Times, serif !important;
+	font-weight:700;
+}	 
+
+/* --------------------- Bylines --------------------- */
+p.byline {
+  	font-family: 'Alegreya', Georgia, Times, serif !important;
+	text-indent:0;
+	font-weight:400;
+	color:#979da2;
+	margin:0 auto;
+	padding:0;
+	position:relative;
+    top:-2em;
+	line-height:1.25;
+	letter-spacing:.02em;
+	text-align:center;
+    font-size:1.25em;
+    padding-bottom:1em;
+	font-style:italic;
+}
+
+p.byline.editorsnote {
+  	width:100%;
+	line-height:1.65;
+}
+p.bylinebottom {
+    font-family: 'Alegreya', Georgia, Times, serif !important;
+	font-weight:400;
+	color:#979da2;
+	text-align:right;
+    font-size:1em;
+    margin:1em 0;
+	font-style:italic;
+}
+
+/* --------------------- Copy Block Typography --------------------- */
+/* lead paragraph */
+p.lead {
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	font-size:1.35em;
+	font-weight:300;
+	text-indent:0;
+	width:100%;
+	margin: 0 auto 2%;
+	padding:0 0	1% 0;
+	line-height: 2;
+	letter-spacing:1px;
+	text-align: left;
+	text-transform:uppercase;	
+}
+/* resizes the numbers -- which are lowercase numerals -- so they appear more visually equal to the allcaps lead paragraph type) */
+p.lead span.number{
+    font-size:1.25em;
+	font-weight:300;
+	line-height: 0;
+}
+/* large orange ledein for lead paragraph type */
+p.lead span.ledein {
+    font-size:1.35em;
+	font-weight:700;
+	text-indent:0;
+	color:#e38223;
+	width:100%;
+	margin: 0 auto 2%;
+	padding:0 0	1% 0;
+	line-height: 2;
+	letter-spacing:0;
+	text-align: left;
+	font-family: 'Alegreya', Georgia, Times, serif !important;
+	text-transform:none;	
+}
+p.lead.lesser {
+  width: 85%;	
+}
+/* main copy block */
+p {
+	font-size:1.35em;
+	width:66%;
+	text-indent:1.25em;
+	margin: 0  17% 0 17%;
+	margin-bottom:0 !important;
+	padding:0;
+	line-height: 1.55;
+	text-align: left;
+	font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	font-weight:400;
+	color:#666;
+}
+/* adds space to text when it follows a tertiary hedline */
+p.spaceabove {
+   margin-top: 2em ;	
+}
+/* interview question */
+p.question {
+	font-family: 'Alegreya', Georgia, Times, serif !important;
+	font-weight:700;
+    font-size:1.3em;
+	color:#000;
+}
+/* removes indent, adds space between paragraphs in interview copy block */
+p.question, p.answer {
+	padding-bottom:.5em;
+	text-indent:0;
+}
+/* allcap ledein in copy block */
+p span.ledein {
+	font-size:.85em;
+	line-height: 1.55;
+	letter-spacing:.02em;
+	text-align: left;
+	font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	font-weight:700;
+	text-transform:uppercase;
+	color:#000;	
+}
+p.small {
+    font-size:.7em;
+    line-height:1.6em;
+    margin:0;
+	text-indent:0;
+    font-weight:400;
+}
+
+/* --------------------- Quoteouts --------------------- */
+/* the quote */
+p.blurb {
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif!important;
+	font-size:2.25em;
+    line-height:1.15;
+    color:rgba(0,0,0,0.5);
+	text-align: center;
+    margin:1em auto 5em;
+    font-weight:300;
+}
+/* the attribution */
+p.blurb span {
+    font-family: 'Alegreya', Georgia, Times, serif !important;
+	font-size:.65em;
+    line-height:1.15;
+    color:rgba(0,0,0,0.5);
+	text-align: center;
+    margin:1em auto 5em;
+    font-weight:400;
+	font-style:italic;
+}
+p.blurb.insert {
+   padding-bottom: 1.5em;
+}
+p.blurb.inserttop {
+   padding-bottom: 1.5em;
+   margin-top:-1.75em;
+}
+
+/* --------------------- Sigs --------------------- */
+/* sidesaddle sig beside copy block (does not display at smaller browser widths) */
+section.authormug.inset.left {
+    background:#f8f8f8;
+    padding:1.5em;
+    margin:.5em 1.5em .5em -8%;
+    width: 22%;
+    font-size:.9em;
+    line-height:1.4;
+}
+/* adjusts space when there is a mug photo */
+section.authormug.inset.left p.withmug{
+	margin-top:1em;
+}
+/* sig below copy block (does not display at wider browser widths) */
+section.authormug.inset.left.ender {
+    display:none;
+	background:#f8f8f8;
+    padding:1.5em;
+    margin:2em 17% 2em;
+    width: 66%;
+    font-size:.9em;
+    line-height:1.4;
+}
+section.authormug.inset.left.ender img {
+    float:left;
+	margin:0 1em 0 0;
+	width: 33%;
+    font-size:.9em;
+    line-height:1.4;
+}
+/* sig typography */
+section.authormug.inset.left h3 {
+	font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	font-size:1.3em;
+    font-weight: 700;
+	text-align:left;
+   	line-height:1;
+    margin: 1em 0 0;
+	color:#999;
+    font-weight: 700;
+    text-align:center;
+}
+section.authormug.inset.left h3 span {
+	display: block;
+	font-size: .75em;
+	font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	font-weight: 400;
+	line-height:1.5;
+	padding-top: 0.7em;
+	letter-spacing:.01em;
+	text-transform:uppercase;
+}
+section.authormug.inset.left p {
+	text-indent:0;
+	width:100%;
+	display: block;
+	padding:0;
+	margin:0;
+	font-size:1em;
+	font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	font-weight: 400;
+	line-height:1.5;
+	padding-top:0;
+	letter-spacing:.01em;
+}
+
+/* --------------------- Single photos--------------------- */
+/* photo above copy block */
+.centerphoto {
+    width:100%;
+    padding:0;
+    margin:0 0 3em;
+}
+/* photo within copy block */
+.centerphoto2 {
+    width:100%;
+    padding:0;
+    margin:3em 0 3em;
+}
+.centerphoto2.inset {
+    width:70%;
+    padding:0;
+    margin:3em 15% 3em;
+}
+
+/* --------------------- Charts --------------------- */
+/* photo the runs besude/before chart */
+.chartphoto {
+	float:left;
+	width:38%;
+	margin:0 2% 3em 10%;
+}
+/* chart column */
+.centerphoto2.charts {
+    width:300px;
+    padding:0;
+    margin:0 0 3em 52%;
+}
+
+/* --------------------- Slide show --------------------- */
+/* standard gallery */
+.centergallery {
+    width:100%;
+    max-height:100%;
+    overflow:hidden;
+    display:block;
+    position:relative;
+    margin:0 auto;
+}
+/* gallery for square photos */
+.centergallery.square {
+    width:80%;
+    max-height:80%;
+    overflow:hidden;
+    display:block;
+    position:relative;
+    margin:0 auto;	
+}
+.centergallery .columns {
+    padding:0 2em 2em;
+}
+.centergallery img {
+    margin:0;
+}
+.centergallery button span {
+    display:none;
+}
+.centergallery .slick-list {
+    outline:none;
+}
+/* next button */
+.centergallery button.slick-next {
+    position:absolute;
+    top:0;
+    right:0;
+	background:rgba(255,255,255,1.0);
+    background-image:url(../img/nextButton.svg);
+	background-repeat:no-repeat;
+	background-position:left 40%;
+	background-size:20%;
+	height:100%;
+    width:15%;
+    text-align:left;
+    outline:none;
+	z-index:100;
+}
+.centergallery.square button.slick-next {
+    background-position:left 45%;
+	background-size:26%;
+	}
+/* previous button */
+.centergallery button.slick-prev {
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(255,255,255,1.0);
+    background-image:url(../img/previousButton.svg);
+	background-repeat:no-repeat;
+	background-position:right 40%;
+	background-size:20%;
+	height:100%;
+    width:15%;
+    text-align:right;	
+	outline:none;
+}
+.centergallery.square button.slick-prev {
+    background-position:right 45%;
+	background-size:26%;
+}
+
+/* --------------------- Captions --------------------- */
+.caption {
+  	width:100%;
+	font-size:1.15em;
+    line-height:1.5;
+    color:rgba(0,0,0,0.6);
+    padding:1em;
+    margin:0;
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	font-weight:400;
+    font-style:normal;
+    cursor:default; 
+    text-indent:0;
+	background-color:#f8f8f8;
+}
+.caption span.captionhed {
+    text-transform:uppercase;
+    font-size:.9em;
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	letter-spacing:.05em;
+    font-weight:900;
+    padding-right:.2em;
+}
+/* credit */
+.caption span.photog {
+    text-transform:uppercase;
+    font-size:.65em;
+   font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	font-weight:400;
+	letter-spacing:.05em;
+    padding-right:.2em;
+}
+.caption.float {
+    background:#FFF;
+	padding:0;
+	text-align:right;
+}
+.caption span.capwarning {
+    color:rgba(0,0,0,0.5);
+    font-weight:700;
+}
+/* --------------------- Expanding/Collapsing Sidebar --------------------- */
+section.inset a.hideme, section.inset a.expandme {
+    text-align:right;
+    float:right;
+	text-transform: uppercase;
+    font-size:.9em;
+    text-decoration: none;
+	margin-top:.5em;
+	border-bottom:none;
+}
+/* up arrow */
+section.inset a.hideme:after {
+    content: "\25B2";
+    display:inline-block;
+    font-size:.8em;
+	padding:0 .5em;
+	margin-left:-1.9em;
+}
+section.inset.right a.expandme {
+    text-align:right;
+    float:right;
+}
+/* left arrow */
+section.inset.right a.expandme:before {
+    content: "\25C0";
+    display:inline-block;
+    font-size:.8em;
+	padding:0 .5em;
+}
+
+/* --------------------- Inset Boxes --------------------- */
+.columns section.large-inset,
+.columns section.inset + .columns section.large-inset {
+    margin:2em auto;
+    padding:2em;
+    margin-top:2em!important;
+}
+section.inset {
+    background:#f8f8f8;
+    padding:3em 0 6em;
+    margin:6em auto;
+}
+section.inset.right {
+    background:#f8f8f8;
+    padding:3em;
+    margin:1em 0 1em 3em;
+    width: 40%;
+    font-size:.9em;
+    line-height:1.4;
+}
+/* inset photo/bookcovers */
+section.inset.right.photoonly {
+    background:#fff;
+    padding:.5em 0;
+	width: 33%;
+   }
+section.inset.left {
+    background:#f8f8f8;
+    padding:0 3em 2em;
+    margin:.5em 1.5em .5em -15%;
+    width: 60%;
+    font-size:.9em;
+    line-height:1.4;
+}
+section.inset.left a.expandme:after {
+    content:'\25BA';
+    display:inline-block;
+    padding:0 1em;
+}
+section.inset .inset-video-right {
+    float:right;
+    margin-right:-10%;
+    width:55%;
+    margin-left:2em;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+section.inset .inset-video-left {
+    float:left;
+    margin-left:-10%;
+    width:55%;
+    margin-right:2em;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+section.inset.left.chart,
+section.inset.right.chart {
+    background:#fff;
+    font-size:.85em;
+    line-height:1.2;
+    padding:0 1.5em 1em;
+}
+section.inset.left.chart h3.subheading,
+section.inset.right.chart h3.subheading {
+    margin-top:1em;
+}
+
+/* --------------------- Inset Boxe Typography --------------------- */
+section.inset.right h3.subheading,
+section.inset.left h3.subheading {
+    font-size:1.6em;
+    width:90%;
+}
+section.inset + section.inset {
+    margin-top:12em;
+}
+section.inset div.title.lowertitle h1 {
+    margin:15% auto;
+    border-bottom:1px solid #aaa;
+    padding-bottom:12%;
+    font-size:2.25em;
+}
+section.inset h3.subheading {
+    margin-top:0;
+    font-size:2.05em;
+    width:100%;
+}
+section.inset p {
+	width:90%;
+	padding:0;
+	margin:0 auto;
+}
+section.inset p.byline {
+	font-family: 'Alegreya', Georgia, Times, serif !important;
+	width:90%;
+	padding:1em 0 0;
+	margin:0 auto;
+}
+section.inset p.lead {
+	width:100%;
+	padding:0 0 .5em;
+	margin:0 auto;
+}
+section.inset p, .reverse li {
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	font-size:1.2em;
+}
+section.inset .twinphoto {
+    margin:4em 0;
+}
+section.inset p.caption {
+    font-size:1.05em;
+    line-height:1.85;
+}   
+ 
+   
+/* --------------------- Audio Box --------------------- */
+section.inset.right.audiobar, section.inset.right.modalload {
+	padding:2em 2em 1em;
+	align:center; 
+	}
+section.inset.right.audiobar audio{
+	width:100%;
+	}
+section.inset.right.audiobar p, section.inset.right.modalload p{
+	text-indent:0;
+	margin-top:1.5em;
+	  
+   }
+
+/* --------------------- Source Boxes (below charts) --------------------- */
+div.row .sources{
+	background:#f8f8f8;
+    padding:1.5em;
+    margin:-2em 10% 2em;
+    width: 80%;
+}
+div.row .sources p{
+	width:100%;
+  	font-size:.95em;
+    line-height:1.4;
+	text-indent:0;
+	margin:0;
+}
+
+/* --------------------- Modal Boxes --------------------- */
+section.inset.right.modalload img {
+	width:50%;
+	margin:0 25%;
+}
+.reveal-modal li {
+  	color:#333;
+    font-size:1.5em;
+    line-height:2;
+    margin-bottom:1.6em;
+    list-style:circle inside;
+}
+.infobox p, .infobox li     {
+    width:100%;
+	font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	text-indent:1.25em;
+	line-height:1.35;
+    margin:0;
+}
+.infobox p.byline.editorsnote {
+    width:70%;
+	font-family: 'Alegreya', Georgia, Times, serif !important;
+	text-indent:0;
+	font-weight:400;
+	color:#979da2;
+	margin:0 auto;
+	padding:0;
+	position:relative;
+    top:-2em;
+	line-height:1.65;
+	letter-spacing:.02em;
+	text-align:center;
+    font-size:1.25em;
+}
+.infobox p.bylinebottom {
+    width:100%;
+	font-family: 'Alegreya', Georgia, Times, serif !important;
+	text-indent:0;
+	font-weight:400;
+	color:#979da2;
+	margin:1em auto;
+	padding:0;
+	line-height:1.65;
+	letter-spacing:.02em;
+	text-align:right;
+    font-size:1em;
+    
+}
+.infobox ul {
+    margin-bottom:.25em;
+}
+.infobox h2 {
+    margin:0 0 .25em;
+}
+.reveal-modal .close-reveal-modal {
+   background-image:url('../img/close.svg');
+   background-repeat:no-repeat;
+   	-webkit-background-repeat:no-repeat;
+    -moz-background-repeat:no-repeat;
+    -o-background-repeat:no-repeat;
+   background-postion:center;
+   	-webkit-background-postion:center;
+    -moz-background-postion:center;
+    -o-background-postion:center;
+   background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    top:0.35em;
+    right:0.35em;
+    width:1em;
+    height:1em;
+ }
+
+/* --------------------- Links --------------------- */
+a, a *, * a, a:visited, a:visited *, * a:visited, a:active, a:active *, * a:active, a:focus, a:focus *, * a:focus {
+    color:#c47e41;
+    outline:none;
+}
+p a, p a:visited {
+    text-decoration: none;
+/*	border-bottom:1px dotted #aaa; */
+}
+a:hover, * a:hover, a:hover * {
+    color:rgba(0,0,0,0.5);
+}
+.centerphoto p a, .centerphoto  p a:visited{
+    text-decoration: none;
+	border-bottom:1px dotted #aaa;
+}
+
+/* --------------------- Top Bar --------------------- */
+.top-bar,
+.top-bar-section ul,
+.top-bar-section ul li,
+.top-bar-section li:not(.has-form) a:not(.button),
+.top-bar-section .dropdown li:not(.has-form) a:not(.button),
+.top-bar.expanded .title-area,
+.top-bar .top-bar-section .dropdown li {
+    background:#fff;
+    color:#555;
+    font-weight:400;
+    font-size:1em;
+}
+.top-bar-section li.noclick,
+.top-bar-section li.noclick a {
+    cursor:default;
+    pointer-events:none;
+}
+.fixed.expanded {
+    -webkit-box-shadow:0px 4px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow:0px 4px 5px rgba(0, 0, 0, 0.25);
+    box-shadow:0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover,
+.top-bar-section .dropdown li:not(.has-form):hover>a:not(.button),
+.top-bar-section ul li:hover:not(.has-form)>a {
+    background:#eee;
+    color:#555;
+}
+.top-bar-section .has-dropdown>a:after {
+    border-color:rgba(0,0,0,0.4) transparent transparent transparent;
+}
+.top-bar .toggle-topbar.menu-icon a span:after {
+    -webkit-box-shadow: 0 0 0 1px #222, 0 7px 0 1px #222, 0 14px 0 1px #222;
+    -moz-box-shadow: 0 0 0 1px #222, 0 7px 0 1px #222, 0 14px 0 1px #222;
+    box-shadow: 0 0 0 1px #222, 0 7px 0 1px #222, 0 14px 0 1px #222;
+}
+.top-bar-section .divider,
+.top-bar-section [role="separator"] {
+    border-top-color: #ddd;
+}
+.top-bar-section .divider.wide {
+    width:2em;
+}
+.top-bar-section .has-dropdown.hover>.dropdown,
+.top-bar-section .has-dropdown.not-click:hover>.dropdown {
+    -webkit-box-shadow:0px 4px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow:0px 4px 5px rgba(0, 0, 0, 0.25);
+    box-shadow:0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.top-bar-section>ul>.divider,
+.top-bar-section>ul>[role="separator"] {
+    border-right:none;
+}
+.top-bar-section ul li.bottom a {
+    padding:.5em .8em;
+}
+.top-bar-section ul li a {
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;    
+	text-transform:none;
+    font-weight:400;
+    font-size:1em;
+}
+.top-bar-section ul li.top-top > a {
+    text-transform:uppercase;
+    font-size:.9em;
+}
+.top-bar-section ul.right li:last-child {
+    margin-right:1em;
+}
+.top-bar .back h5 {
+    display:none;
+}
+.top-bar-section ul li.social img {
+    height:1em;
+    width:1em;
+}
+.top-bar .toggle-topbar.menu-icon a span {
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;    
+    color:#222;
+}
+/* --------------------- Tooltips --------------------- */
+.tooltip {
+    color:#333;
+    background:#f9f9f9;
+    -webkit-box-shadow:1px 1px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow:1px 1px 3px rgba(0, 0, 0, 0.25);
+    box-shadow:1px 1px 3px rgba(0, 0, 0, 0.25);
+    font-size:.9em;
+    line-height:1.5;
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;    
+    z-index:999000;
+}
+.tooltip.tip-top>.nub {
+    display:none;
+}
+.has-tip {
+    font-weight:400;
+}
+p.lead .has-tip {
+    font-weight: 700;
+}
+.has-tip:hover {
+    color:#009696;
+}
+.has-tip:after {
+    content:'\003f';
+    font-size:.65em;
+    vertical-align:super;
+    border-bottom:none;
+    width:0;
+    overflow:visible;
+    padding-left:.1em;
+    font-weight:bold;
+    color:#009696;
+}
+/* --------------------- Credits Modal --------------------- */
+#credits .row {
+    margin-top:2em;
+    margin-bottom:2em;
+}
+#credits .row .columns p {
+    text-indent:0;
+    margin-bottom:.05em;
+}
+#credits p strong a {
+    color:#222;
+    font-weight:700;
+    text-decoration:none;
+}
+#credits p strong a:hover {
+    color:#900;
+}
+#credits .row .columns p:first-child {
+    margin-top:.1em;
+}
+.reverse h1 {
+    background:#000;
+    color:#fff;
+    padding:.5em;
+    width:100%;
+    text-align:right;
+    margin:.18em 0 0;
+    letter-spacing:1px;
+    font-size:2em;
+}
+/* --------------------- Video --------------------- */
+.centervideo {
+    margin:4em 0 6em;
+}
+a.startVideo {
+    border-bottom:1px solid #444;
+    text-decoration: none;
+    margin-left:.3em;
+    margin-right:.3em;
+}
+a.startVideo:before {
+    width:1em;
+    padding:0 1.5em 0 0;
+    margin-right:.25em;
+    margin-left:.1em;
+    display:inline;
+    content:'';
+    line-height: 1;
+    background-image:url('../img/icon-play.png');
+    background-size:1em;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+a.startVideo:hover {
+    border-bottom:1px solid #004646;
+}
+.inset-video-right {
+    float:right;
+    margin-top:.5em;
+    margin-bottom:.5em;
+    margin-right:-15%;
+    width:60%;
+    margin-left:1.5em;
+}
+.inset-video-left {
+    float:left;
+    margin-top:.5em;
+    margin-bottom:.5em;
+    margin-left:-15%;
+    width:60%;
+    margin-right:1.5em;
+}
+.vid-embed-wrap {
+    width:100%;
+    position:relative;
+    display:block;
+    margin:0 0 .5em;
+    overflow:hidden;
+}
+.vid-height-space {
+    width:100%;
+    height:0;
+    padding-bottom:56.25%;
+}
+.vid-embed {
+    cursor:pointer;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    display:block;
+}
+.vid-embed .innerWrapper {
+    height:100%;
+}
+.vid-embed-play {
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    display:block;
+    position:absolute;
+    bottom:5%;
+    left:5%;
+    height:4em;
+    width:8em;
+    border:3px solid rgba(255,255,255,0.8);
+    cursor: pointer;
+    pointer-events:none;
+}
+.vid-embed-play .playtext {
+    opacity:0;
+    padding-top:.2em;
+}
+.vid-embed-play .playicon {
+    opacity:1;
+}
+.vid-embed-play .playtext,
+.vid-embed-play .playicon {
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    display:block;
+    position: absolute;
+    top:25%;
+    text-align:center;
+    margin:0 auto;
+    width:100%;
+}
+.vid-embed-play .playicon:after {
+    content:'\25B6';
+    padding-left:.25em;
+    color:rgba(255,255,255,0.8);
+    font-size: 2.25em;
+    font-weight:700;
+}
+.vid-embed-play .playtext:after {
+    content:'Play';
+    padding-top:.5em;
+    color:rgba(255,255,255,0.8);
+    font-size: 1.8em;
+    font-weight:700;
+}
+
+/* --------------------- Twin Photos --------------------- */
+.twinphoto .photoleft {
+    width:50%;
+    float:left;
+    padding-right:.75em;
+    display:inline-block;
+}
+.twinphoto .photoright {
+    width:50%;
+    float:right;
+    padding-left:.75em;
+    display:inline-block;
+}
+.twinphoto .photoleft .caption {
+    padding-left:1em;
+}
+.twinphoto .photoright .caption {
+    padding-right:1em;
+}
+
+/* --------------------- Rows --------------------- */
+.row2 {
+	margin-top:3em;
+}
+.row.solo {
+    margin-bottom:4em;
+}
+.row.solo.chart-late {
+    margin-bottom:2em;
+}
+.photorow {
+    margin:2em 0 4em;
+    padding:0;
+    width:100%;
+}
+
+/* --------------------- Misc --------------------- */
+.tiptonext {
+	margin-top:2em;
+	font-size:1em;
+	font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+	font-weight:700;
+	text-align:center;
+	padding-left:1.4em;
+	
+}
+.tiptonext img{
+	width:1.2em;
+	height:1.35em;
+	padding:0 0 .15em .05em;	
+}
+#logoimg {
+    margin:0;
+    height:1.6em;
+}
+#logosmall {
+    margin:0 1.2em 0 0;
+    height:1.6em;
+    display:inline-block;
+    float:left;
+}
+.clear {
+    width:100%;
+    height:0;
+    clear:both;
+}
+
+/* --------------------- Footer --------------------- */
+div#footer-bar {
+    background:#fff;
+    -webkit-box-shadow:0px -2px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow:0px -2px 3px rgba(0, 0, 0, 0.15);
+    box-shadow:0px -2px 3px rgba(0, 0, 0, 0.15);
+    color:#555;
+    padding:1em 1em 1.5em;
+	margin-top:3em;
+}
+div#footer-bar ul.social {
+    margin:0 auto;
+    position:absolute;
+    left:45%;
+    top:.75em;
+}
+div#footer-bar ul.social li {
+    padding:0 .5em;
+    float:left;
+    display:inline-block;
+}
+
+
+/** iPhone (potrait) **/
+@media screen and (max-width : 360px) {
+	.opener div#title h1 {
+       	font-size:2em;
+		letter-spacing:0;
+		bottom:5%;
+	}
+	.opener div#title h1 span{
+        font-size:50%;
+	}	
+	.flag-header {
+		display:none;
+	}	
+	.row2 {
+		margin-top:.5em;
+	}
+	p.blurb {
+    	width:90%;
+		font-size:1.3em;
+    }
+	p.blurb span {
+  		font-size:.75em;
+ 	}
+	.lowertitle h5 {
+    	font-size:1em;
+		letter-spacing:0;
+		margin-top:1.5em;
+	}
+	div.title.lowertitle.main h2 {
+    	font-size:2.25em;
+    	margin:0 auto 1em;
+		padding-top:.25em;
+    	width:90%;
+	}
+	div.title.lowertitle.secondary h3 {
+    	font-size:1.85em;
+    	margin:.5em auto -.5em;
+    	padding-top:.5em;
+	}
+	div.title.lowertitle.tertiary h4 {
+		font-size:1.45em;
+		margin:.5em auto -1em;
+	 	line-height:1.15;
+	}
+	div.title.lowertitle.tertiary.tight h4 {
+     	font-size:1.45em;
+	}
+	h3.subheading {
+   		font-size:1.35em;
+    	line-height:1.25;
+		margin:.75em auto 1em;
+		width:90%;
+	}
+	.centergallery.square {
+    	width:100%;
+    	max-height:100%;
+		margin-bottom:-2.5em;	
+	}
+	.centergallery button.slick-next {
+    	right:-10%;
+		background-position:left 36%;
+		background-size:33%;		
+	}
+	.centergallery.square button.slick-next {
+    	background-position:left 36%;
+		background-size:33%;
+	}
+	.centergallery button.slick-prev {
+     	left:-10%;
+		background-position:right 36%;
+		background-size:33%;
+	 }
+	.centergallery.square button.slick-prev {
+    	background-position:right 36%;
+		background-size:33%;
+	}
+	p.byline {
+  		width:70%;
+		top:-1.65em;
+	 	font-size:1em;
+    	padding-bottom:0;
+	}
+	p.lead {
+		font-size:.95em;
+		width:90%;
+		margin: -2% auto 2%;
+		line-height: 1.65;
+	}
+	p.lead.spaceabove {
+   		margin-top:2em;
+	}
+	section.authormug.inset.left {
+   		display:none;
+	}
+	section.authormug.inset.left.ender {
+    	font-size:.85em;
+		display:block;
+		padding:1em;
+    	margin:5% 0;
+  		width:100%;
+ 	}
+	section.authormug.inset.left.ender img {
+    	width: 25%;
+ 	}
+	p {
+		font-size:1em;
+		width:90%;
+		text-indent:1em;
+		margin: 0  5% 0 5%;
+		line-height: 1.35;
+		}
+	p.question {
+		font-size:.95em;
+	}
+    div#footer-bar p.small {
+        max-width:50%;
+        text-align:left;
+    }
+    div#footer-bar ul.social {
+        right:1em;
+        left:auto;
+    }
+	section.inset.right.photoonly {
+    	width: 70%;
+   		margin:1em 15%;
+  	}
+   	.caption {
+  		font-size:.95em;
+    	line-height:1.35;
+		padding:.85em;
+   	}
+	.caption span.captionhed {
+		font-size:.8em;
+	}
+	.caption span.photog {
+    	font-size:.75em;
+	}
+	.centerphoto {
+  		margin:0 0 1em;
+	}  
+	.centerphoto2 {
+    	margin:1.5em 0 1em;
+	}
+	p.lead span.ledein {
+    	font-size:1.25em;
+	}
+	.chartphoto {
+		width:70%;
+		margin:0 15% 2em;
+	}
+	.centerphoto2.charts {
+    	width:90%;
+    	margin:0 auto 3em;
+	}
+	div.row .sources {
+    	margin:-2em 5% 0;
+    	width: 90%;
+	}	
+	p.byline.editorsnote {
+  		margin-top:2em;
+		width:90%;
+		line-height:1.35;
+	}
+	section.inset.right {
+  		padding:1em;
+    	margin:1em 3%;
+		width: 94%;
+ 	}
+	section.inset h3.subheading {
+    	font-size:1.35em;
+	}
+	section.inset p {
+		font-size:1em;
+		width:100%;
+	}
+	section.inset p.byline {
+		font-size:1em;
+	}
+	section.inset p.lead {
+		font-size:.95em;
+	}
+	section.inset section.authormug.inset.left.ender {
+   		padding:0;
+    	margin:1em 0 0;
+	}	
+	dialog,.reveal-modal{
+		margin-top:15%;
+		margin-left:5%;
+		width:90%;
+ 	}
+	section.inset.right.modalload img {
+  		width:50%;
+ 		margin:0 25%;
+	}
+	.infobox p, .infobox li {
+   		font-size:1em;
+  		line-height:1.45;
+	}
+	.infobox p.bylinebottom {
+        font-size:.85em;
+	}
+	.infobox p.byline.editorsnote {
+    	font-size:1em;
+  		margin:2.5em auto 0;
+		line-height:1.45;
+	}
+	.reveal-modal .close-reveal-modal {
+		width:.75em;
+    	height:.75em;
+	}
+}
+
+/** iPhone (landscape) **/
+@media screen and (min-width : 326px) and (max-width : 480px) {
+	.opener div#title h1 {
+        font-size:2em;
+		letter-spacing:0;
+		bottom:5%;
+	}
+	.opener div#title h1 span{
+        font-size:46%;
+    }
+	.flag-header {
+		display:none;
+	}
+	.row2 {
+		margin-top:.5em;
+	}
+	p.blurb {
+    	width:90%;
+		font-size:1.3em;
+    }
+	p.blurb span {
+  		font-size:.75em;
+ 	}
+	.lowertitle h5 {
+    	font-size:1em;
+		letter-spacing:0;
+		margin-top:1.5em;
+	}
+	div.title.lowertitle.main h2 {
+    	font-size:2.25em;
+    	margin:0 auto 1em;
+    	padding-top:.25em;
+    	width:90%;
+	}
+	div.title.lowertitle.secondary h3 {
+    	font-size:1.85em;
+    	margin:.5em auto -.5em;
+    	padding-top:.5em;
+	}
+	div.title.lowertitle.tertiary h4 {
+    	font-size:1.45em;
+		margin:.5em auto -1em;
+		line-height:1.15;
+	}
+	div.title.lowertitle.tertiary.tight h4 {
+   		font-size:1.45em;
+	  }
+	h3.subheading {
+   		font-size:1.35em;
+    	line-height:1.25;
+		margin:.75em auto 1em;
+		width:90%;
+	}
+	.centergallery.square {
+    	width:100%;
+    	max-height:100%;
+		margin-bottom:-2.5em;	
+	}
+	.centergallery button.slick-next {
+    	right:-5%;
+		background-position:left 36%;
+		background-size:33%;		
+	}
+	.centergallery.square button.slick-next {
+    	background-position:left 36%;
+		background-size:33%;
+	}
+	.centergallery button.slick-prev {
+     	left:-5%;
+		background-position:right 36%;
+		background-size:33%;
+	 }
+	.centergallery.square button.slick-prev {
+    	background-position:right 36%;
+		background-size:33%;
+	}
+	p.byline {
+  		top:-1.65em;
+	 	font-size:1em;
+    	padding-bottom:0;
+	}
+	p.lead {
+    	font-size:1em;
+		width:90%;
+		margin: -2% auto 2%;
+		line-height: 1.65;
+	}
+	p.lead.spaceabove {
+   		margin-top:2em;
+	}	
+	section.authormug.inset.left {
+   		display:none;
+	}
+	section.authormug.inset.left.ender {
+    	display:block;
+	 	padding:1em;
+    	margin:5% 0;
+    	width:100%;
+	}
+	section.authormug.inset.left.ender img {
+    	width: 20%;
+ 	}
+	p {
+		font-size:1em;
+		width:90%;
+		text-indent:1em;
+		margin: 0  5% 0 5%;
+		line-height: 1.35;
+	}
+	p.question {
+		ont-size:.95em;
+	}	
+	section.inset.right.photoonly {
+    	width: 36%;
+   		margin:1em 5%;
+   	}
+	section.inset.right.photoonly {
+    	width:50%;
+   		margin:1em 25%;
+   	}
+    .caption {
+  		font-size:.95em;
+    	line-height:1.35;
+       	padding:.85em;
+   	}
+	.caption span.captionhed {
+    	font-size:.8em;
+	}
+	.caption span.photog {
+    	font-size:.75em;
+ 	}
+ 	.centerphoto {
+   		margin:0 0 1em;
+	}  
+	.centerphoto2 {
+    	margin:1.5em 0 1em;
+	}
+	p.lead span.ledein {
+    	font-size:1.25em;
+	}
+	.chartphoto {
+		width:60%;
+		margin:0 20% 2em;
+	}
+	.centerphoto2.charts {
+    	width:300px;
+    	margin:0 auto 3em;
+	}	
+	div.row .sources{
+    	margin:-2em 5% 0;
+   	 	width: 90%;
+	}		
+	p.byline.editorsnote {
+  		margin-top:2em;
+		width:90%;
+		line-height:1.35;
+	}
+	section.inset.right {
+     	padding:1em;
+    	margin:1em 3%;
+    	width: 94%;
+ 	}
+	section.inset h3.subheading {
+    	font-size:1.35em;
+	}
+	section.inset p {
+		font-size:1em;
+		width:100%;
+	}
+	section.inset p.byline {
+		font-size:1em;
+	}
+	section.inset p.lead {
+		font-size:.95em;
+	}
+	section.inset section.authormug.inset.left.ender {
+   		padding:0;
+    	margin:1em 0 0;
+   	}	
+    dialog,.reveal-modal{
+	  	margin-top:15%;
+	  	margin-left:5%;
+	  	width:90%;
+  	}
+	section.inset.right.modalload {
+  		width:70%;
+  		margin:1em 15%;
+   	}
+    section.inset.right.modalload img {
+ 		width:50%;
+  		margin:.75em 25% 0;
+	}
+	.infobox p, .infobox li {
+   		font-size:1em;
+  		line-height:1.45;
+	}
+	.infobox p.bylinebottom {
+        font-size:.9em;
+ 	}
+	.infobox p.byline.editorsnote {
+     	font-size:1em;
+  		margin:2.5em auto 0;
+		line-height:1.45;
+	}	
+	.reveal-modal .close-reveal-modal {
+    	width:.85em;
+    	height:.85em;
+ 	}
+
+}
+
+
+@media screen and (min-width : 481px) and (max-width : 680px) {
+	.opener div#title h1 {
+        width:90%;
+		font-size:2.5em;
+		letter-spacing:0;
+		margin:0 5%;
+		padding:0;
+		bottom:10%;
+	}
+	.opener div#title h1 span{
+        font-size:43%;
+    }
+	.flag-header {
+		display:none;
+	}
+	.row2 {
+		margin-top:.65em;
+	}
+	p.blurb {
+    	width:90%;
+		font-size:1.45em;
+    }
+	p.blurb span {
+  		font-size:.7em;
+ 	}
+	.lowertitle h5 {
+    	font-size:1.15em;
+		margin-top:1.65em;
+	}
+	div.title.lowertitle.main h2 {
+    	font-size:2.5em;
+   		margin:0 auto 1em;
+     	padding-top:.25em;
+    	width:90%;
+	}
+	div.title.lowertitle.secondary h3 {
+		font-size:2em;
+		margin:.5em auto -.5em;
+		padding-top:.5em;
+	}
+	div.title.lowertitle.tertiary h4 {
+    	font-size:1.6em;
+	 	margin:.5em auto -1em;
+	 	line-height:1.15;
+	}
+	div.title.lowertitle.tertiary.tight h4 {
+     	font-size:1.6em;
+	}
+	h3.subheading {
+   		font-size:1.5em;
+    	line-height:1.25;
+	 	margin:.75em auto 1em;
+     	width:90%;
+	}
+	.centergallery {
+  	margin-bottom:-1em;	
+	}
+	.centergallery.square {
+    	width:80%;
+    	max-height:80%;
+		margin-bottom:-1em;	
+	}
+	.centergallery button.slick-next {
+    	right:-5%;
+		background-position:left 44%;
+		background-size:30%;
+	}
+	.centergallery.square button.slick-next {
+    	background-position:left 44%;
+		background-size:30%;
+	}
+	.centergallery button.slick-prev {
+     	left:-5%;
+	  	background-position:right 44%;
+		background-size:30%;
+ 	}
+	.centergallery.square button.slick-prev {
+    	background-position:right 44%;
+		background-size:30%;
+	}
+	p.byline {
+  		top:-1.65em;
+	 	font-size:1em;
+    	padding-bottom:1em;
+	}
+	p.lead {
+    	font-size:1.1em;
+		width:90%;
+		margin: -2% auto 2%;
+		line-height: 1.75;
+	}
+	p.lead.spaceabove {
+   		margin-top:2em;
+	}
+	section.authormug.inset.left {
+   		display:none;
+	}
+	section.authormug.inset.left.ender {
+    	display:block;
+	 	padding:1em;
+    	margin:5% 15%;
+    	width:70%;
+ 	}
+ 	section.authormug.inset.left.ender img {
+    	width: 20%;
+ 	}
+ 	p {
+		font-size:1em;
+		width:70%;
+		text-indent:1em;
+		margin: 0  15% 0 15%;
+		line-height: 1.35;
+	}
+	p.question {
+	 	font-size:.95em;
+	}	
+	section.inset.right.photoonly {
+    	width: 36%;
+   		margin:1em 5%;
+   }    
+   .centerphoto {
+  		margin:0 0 1.5em;
+	} 
+	.centerphoto2 {
+    margin:2em 0 1.5em;
+	}
+	.chartphoto {
+		width:60%;
+		margin:0 20% 2em;
+	}
+	.centerphoto2.charts {
+    	width:300px;
+    	margin:0 auto 3em;
+	}
+	div.row .sources{
+    	margin:-2em 5% 0;
+    	width: 90%;
+	}	
+	p.byline.editorsnote {
+  		margin-top:2em;
+		width:90%;
+		line-height:1.35;
+	}
+	section.inset.right {
+     	padding:1em;
+    	margin:1em 3%;
+    	width: 94%;
+ 	}
+	section.inset h3.subheading {
+    	font-size:1.35em;
+	}
+	section.inset p {
+		font-size:1em;
+		width:100%;
+	}
+	section.inset p.byline {
+		font-size:1em;
+	}
+	section.inset p.lead {
+		font-size:.95em;
+	}
+	section.inset section.authormug.inset.left.ender {
+   		width:100%;
+   		padding:0;
+    	margin:1em 0 0;
+   	}	
+  	dialog,.reveal-modal{
+	  	margin-top:10%;
+	  	margin-left:10%;
+	  	width:80%;
+  	}
+	section.inset.right.modalload {
+  		width:50%;
+  		margin:1em 25%;
+	}
+	section.inset.right.modalload img {
+  		width:50%;
+  		margin:.5em 25% 0;
+  	}
+	.infobox p, .infobox li     {
+   		font-size:1em;
+  		line-height:1.45;
+	}
+	.infobox p.bylinebottom {
+        font-size:.95em;
+	 }
+	.infobox p.byline.editorsnote {
+     	font-size:1.1em;
+  		margin:2.5em auto 0;
+		line-height:1.45;
+	}
+	.reveal-modal .close-reveal-modal {
+    	width:.85em;
+   		height:.85em;
+  	}
+}
+
+/** iPad (portrait) **/
+@media screen and (min-width : 681px) and (max-width : 768px) {
+	.opener div#title h1 {
+        font-size:5em;
+		letter-spacing:0;
+		bottom:10%;
+	}
+	.opener div#title h1 span{
+        font-size:33%;
+    }
+	.flag-header {
+		padding:8px 10px;
+	}	
+	.row2 {
+		margin-top:.75em;
+	}
+	p.blurb {
+    	width:90%;
+		font-size:1.55em;
+    }
+	p.blurb span {
+  		font-size:.65em;
+ 	}
+	.lowertitle h5 {
+    	margin-top:2em;
+	}
+	div.title.lowertitle.main h2 {
+    	margin:0 auto 1em;
+     	padding-top:.3em;
+    	width:90%;
+	}
+	div.title.lowertitle.secondary h3 {
+     	font-size:2em;
+    	margin:.5em auto -.5em;
+    	padding-top:.5em;
+	}
+	div.title.lowertitle.tertiary h4 {
+    	font-size:1.6em;
+		margin:.5em auto -1em;
+	 	line-height:1.15;
+	}
+	div.title.lowertitle.tertiary.tight h4 {
+     	font-size:1.6 em;
+	}
+	h3.subheading {
+   		font-size:1.5em;
+    	line-height:1.25;
+	 	margin:.75em auto 1em;
+     	width:90%;
+	}
+	.centergallery.square {
+    	width:80%;
+   		max-height:80%;
+		margin-bottom:-1em;	
+	}
+	.centergallery button.slick-next {
+    	right:-5%;
+		background-position:left 44%;
+		background-size:30%;
+	}
+	.centergallery.square button.slick-next {
+    	background-position:left 44%;
+		background-size:30%;
+	}
+	.centergallery button.slick-prev {
+     	left:-5%;
+	 	background-position:right 44%;
+		background-size:30%;
+ 	}
+	.centergallery.square button.slick-prev {
+    	background-position:right 44%;
+		background-size:30%;
+	}
+	p.byline {
+  		top:-2.5em;
+	}
+	p.lead {
+      	width:90%;
+	   	font-size:1.25em;
+		margin: -2% auto 2%;
+	}
+	p {
+		width:70%;
+		margin: 0  15% 0 15%;
+		line-height: 1.45;
+	}
+	p.lead.spaceabove {
+   		margin-top:2em;
+	}
+	section.authormug.inset.left {
+		width:24%;
+ 		margin-left:-2%;
+	}
+    .centerphoto {
+   		margin:-1.5em 0 2em;
+	} 
+	.centerphoto2 {
+    	margin:2.5em 0 2em;
+	}
+	.chartphoto {
+		float:left;
+		width:38%;
+		margin:0 5% 3em 7%;
+	}
+	.centerphoto2.charts {
+    	width:300px;
+    	padding:0;
+    	margin:0 0 3em 50%;
+	}
+	p.byline.editorsnote {
+  		margin-top:2em;
+		width:90%;
+		line-height:1.35;
+	}
+	section.inset.right {
+    	padding:1.5em;
+   	 	margin:1em 3%;
+    	width: 35%;
+ 	}
+	section.inset p.byline {
+		margin-top:2em;
+	}
+	section.inset section.authormug.inset.left.ender {
+   		width:100%;
+   		padding:0;
+    	margin:1em 0 0;
+   	}	
+	section.inset section.authormug.inset.left {
+   		width:25%;
+   		padding:0;
+   		margin-left:0;
+	}
+	section.inset.right.audiobar {
+   		width:60%;
+    	padding:2em 2em 1em;
+	  	margin:1em 20%;
+   	}
+	section.inset.right.audiobar .centerphoto {
+   		width:100%;
+    	padding:2em 1em 0;
+	}
+	dialog,.reveal-modal{
+		margin-left:10%;
+		width:80%;
+	}
+	section.inset.right.modalload img {
+  		width:50%;
+  		margin:2em 25% 0;
+   	}
+	.infobox p, .infobox li {
+   		font-size:1.2em;
+  		line-height:1.45;
+	}
+	.infobox p.byline.editorsnote {
+    	margin:2.5em auto 0;
+		line-height:1.45;
+	}	
+}
+
+
+/** iPad (landscape) **/
+@media screen and (min-width : 769px) and (max-width : 1024px) {
+	.opener div#title h1 {
+        font-size:6em;
+		letter-spacing:0;
+		bottom:10%;
+	}
+	.opener div#title h1 span{
+        font-size:30%;
+    }
+	.flag-header {
+		padding:8px 10px;
+	}
+	.row2 {
+		margin-top:1em;
+	}
+	p.blurb {
+    	width:85%;
+		font-size:1.85em;
+    }
+	p.blurb span {
+  		font-size:.6em;
+ 	}
+	.lowertitle h5 {
+   		margin-top:2em;
+	}
+	div.title.lowertitle.main h2 {
+    	margin:0 auto 1em;
+     	padding-top:.3em;
+    	width:90%;
+	}
+	p.byline {
+  		top:-2.5em;
+	}
+	p.lead {
+ 		margin: -2% auto 2%;
+	}
+	p {
+		width:60%;
+		margin: 0  20% 0 20%;
+	}
+	section.authormug.inset.left {
+    	display:block;
+		width:18%;
+ 		margin-left:0;
+	}
+}
+
+/** Desktops and laptops **/
+@media only screen and (min-width : 1025px) and  (max-width : 1280px)  {
+	.opener div#title h1 {
+        font-size:7em;
+		letter-spacing:0;
+		bottom:10%;
+	}
+	.opener div#title h1 span{
+        font-size:27%;
+    }
+}
+
+/** Large screens **/
+@media only screen and (min-width : 1281px) {
+
+
+
+
+}
