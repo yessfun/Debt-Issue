@@ -248,7 +248,7 @@ div.title.lowertitle.tertiary.tight h4 {
 	 margin-top:0;
 	 margin-bottom:.85em;
 	 }
-/* hedline for inset boxes and grphic features */
+/* hedline for inset boxes and graphic features */
 h3.subheading {
     font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
 	font-size:1.65em;
@@ -409,6 +409,7 @@ p.small {
 	text-indent:0;
     font-weight:400;
 }
+
 
 /* --------------------- Quoteouts --------------------- */
 /* the quote */
@@ -1246,6 +1247,21 @@ a.startVideo:hover {
     width:100%;
     height:0;
     clear:both;
+}
+/* large orange text for breaking type */
+span.breaker {
+    font-size:1.35em;
+	font-weight:700;
+	text-indent:0;
+	color:#e38223;
+	width:100%;
+	margin: 0 auto 2%;
+	padding:0 0	1% 0;
+	line-height: 2;
+	letter-spacing:0;
+	text-align: center;
+	font-family: 'Alegreya', Georgia, Times, serif !important;
+	text-transform:none;	
 }
 
 /* --------------------- Footer --------------------- */
