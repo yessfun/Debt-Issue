@@ -1252,16 +1252,14 @@ a.startVideo:hover {
 span.breaker {
     font-size:1.35em;
 	font-weight:700;
-	text-indent:0;
 	color:#e38223;
 	width:100%;
 	margin: 0 auto 2%;
 	padding:0 0	1% 0;
-	line-height: 2;
+	line-height: 3;
 	letter-spacing:0;
-	text-align: center;
-	font-family: 'Alegreya', Georgia, Times, serif !important;
-	text-transform:none;	
+	text-align:center;
+	font-family: 'Alegreya', Georgia, Times, serif !important;	
 }
 
 /* --------------------- Footer --------------------- */
