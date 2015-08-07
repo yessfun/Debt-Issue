@@ -1250,14 +1250,14 @@ a.startVideo:hover {
 }
 /* large orange text for breaking type */
 span.breaker {
-    font-size:1.35em;
+    font-size:2em;
 	font-weight:700;
 	color:#e38223;
 	width:100%;
 	margin: 0 auto 2%;
 	padding:0 0	1% 0;
         display:inline-block;
-	line-height: 3;
+	line-height: 2em;
 	letter-spacing:0;
 	text-align:center;
 	font-family: 'Alegreya', Georgia, Times, serif !important;	
