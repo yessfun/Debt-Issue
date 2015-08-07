@@ -1256,6 +1256,7 @@ span.breaker {
 	width:100%;
 	margin: 0 auto 2%;
 	padding:0 0	1% 0;
+        display:inline-block;
 	line-height: 3;
 	letter-spacing:0;
 	text-align:center;
