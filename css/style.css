@@ -1286,8 +1286,612 @@ div#footer-bar ul.social li {
 }
 
 
+
+
+/* ------------------------------------------ 1280 px wide ------------------------------------------ */
+/** Laptops **/
+@media only screen and (max-width : 1280px)  {
+    
+    .opener div#title h1 {
+        font-size:7em;
+        letter-spacing:0;
+        bottom:10%;
+    }
+    .opener div#title h1 span{
+        font-size:27%;
+    }
+}
+
+/* ------------------------------------------ 1024 px wide ------------------------------------------ */
+/** iPad (landscape) **/
+@media screen and (max-width : 1024px) {
+    
+    .opener div#title h1 {
+        font-size:6em;
+    }
+    .opener div#title h1 span{
+        font-size:30%;
+    }
+    .flag-header {
+        padding:8px 10px;
+    }
+    .row2 {
+        margin-top:1em;
+    }
+    p.blurb {
+        width:85%;
+        font-size:1.85em;
+    }
+    p.blurb span {
+        font-size:.6em;
+    }
+    .lowertitle h5 {
+        margin-top:2em;
+    }
+    div.title.lowertitle.main h2 {
+        margin:0 auto 1em;
+        padding-top:.3em;
+        width:90%;
+    }
+    p.byline {
+        top:-2.5em;
+    }
+    p.lead {
+        margin: -2% auto 2%;
+    }
+    p {
+        width:60%;
+        margin: 0 20%;
+    }
+    section.authormug.inset.left {
+        display:block;
+        width:18%;
+        margin-left:0;
+    }
+}
+
+/* ------------------------------------------ 768 px wide ------------------------------------------ */
+/** iPad (portrait) **/
+@media screen and (max-width : 768px) {
+    
+    .opener div#title h1 {
+        font-size:5em;
+    }
+    .opener div#title h1 span{
+        font-size:33%;
+    }
+    .row2 {
+        margin-top:.75em;
+    }
+    p.blurb {
+        width:90%;
+        font-size:1.55em;
+    }
+    p.blurb span {
+        font-size:.65em;
+    }
+    div.title.lowertitle.secondary h3 {
+        font-size:2em;
+        margin:.5em auto -.5em;
+        padding-top:.5em;
+    }
+    div.title.lowertitle.tertiary h4 {
+        font-size:1.6em;
+        margin:.5em auto -1em;
+        line-height:1.15;
+    }
+    div.title.lowertitle.tertiary.tight h4 {
+        font-size:1.6 em;
+    }
+    h3.subheading {
+        font-size:1.5em;
+        line-height:1.25;
+        margin:.75em auto 1em;
+        width:90%;
+    }
+    .centergallery.square {
+        width:80%;
+        max-height:80%;
+        margin-bottom:-1em; 
+    }
+    .centergallery button.slick-next {
+        right:-5%;
+        background-position:left 44%;
+        background-size:30%;
+    }
+    .centergallery.square button.slick-next {
+        background-position:left 44%;
+        background-size:30%;
+    }
+    .centergallery button.slick-prev {
+        left:-5%;
+        background-position:right 44%;
+        background-size:30%;
+    }
+    .centergallery.square button.slick-prev {
+        background-position:right 44%;
+        background-size:30%;
+    }
+    p.lead {
+        width:90%;
+        font-size:1.25em;
+    }
+    p {
+        width:70%;
+        margin: 0 15%;
+        line-height: 1.45;
+    }
+    p.lead.spaceabove {
+        margin-top:2em;
+    }
+    section.authormug.inset.left {
+        width:24%;
+        margin-left:-2%;
+    }
+    .centerphoto {
+        margin:-1.5em 0 2em;
+    } 
+    .centerphoto2 {
+        margin:2.5em 0 2em;
+    }
+    .chartphoto {
+        float:left;
+        width:38%;
+        margin:0 5% 3em 7%;
+    }
+    .centerphoto2.charts {
+        width:300px;
+        padding:0;
+        margin:0 0 3em 50%;
+    }
+    p.byline.editorsnote {
+        margin-top:2em;
+        width:90%;
+        line-height:1.35;
+    }
+    section.inset.right {
+        padding:1.5em;
+        margin:1em 3%;
+        width: 35%;
+    }
+    section.inset p.byline {
+        margin-top:2em;
+    }
+    section.inset section.authormug.inset.left.ender {
+        width:100%;
+        padding:0;
+        margin:1em 0 0;
+    }   
+    section.inset section.authormug.inset.left {
+        width:25%;
+        padding:0;
+        margin-left:0;
+    }
+    section.inset.right.audiobar {
+        width:80%;
+        padding:2em 1em 1em;
+        margin:1em 10%;
+    }
+    section.inset.right.audiobar .centerphoto {
+        width:100%;
+        padding:2em 1em 0;
+    }
+    dialog,.reveal-modal{
+        margin-left:10%;
+        width:80%;
+    }
+    section.inset.right.modalload img {
+        width:50%;
+        margin:2em 25% 0;
+    }
+    .infobox p, .infobox li {
+        font-size:1.2em;
+        line-height:1.45;
+    }
+    .infobox p.byline.editorsnote {
+        margin:2.5em auto 0;
+        line-height:1.45;
+    }   
+}
+
+/* ------------------------------------------ 680 px wide ------------------------------------------ */
+@media screen and (max-width : 680px) {
+    
+    .opener div#title h1 {
+        width:90%;
+        font-size:2.5em;
+        letter-spacing:0;
+        margin:0 5%;
+        padding:0;
+        bottom:10%;
+    }
+    .opener div#title h1 span{
+        font-size:43%;
+    }
+    .flag-header {
+        display:none;
+    }
+    .row2 {
+        margin-top:.65em;
+    }
+    p.blurb {
+        font-size:1.45em;
+    }
+    p.blurb span {
+        font-size:.7em;
+    }
+    .lowertitle h5 {
+        font-size:1.15em;
+        margin-top:1.65em;
+    }
+    div.title.lowertitle.main h2 {
+        font-size:2.5em;
+        margin:0 auto 1em;
+        padding-top:.25em;
+        width:90%;
+    }
+    .centergallery {
+        margin-bottom:-1em; 
+    }
+    p.byline {
+        top:-1.65em;
+        font-size:1em;
+        padding-bottom:1em;
+    }
+    p.lead {
+        font-size:1.1em;
+        margin: -2% auto 2%;
+        line-height: 1.75;
+    }
+    p.lead.spaceabove {
+        margin-top:2em;
+    }
+    section.authormug.inset.left {
+        display:none;
+    }
+    section.authormug.inset.left.ender {
+        display:block;
+        padding:1em;
+        margin:5% 15%;
+        width:70%;
+    }
+    section.authormug.inset.left.ender img {
+        width: 20%;
+    }
+    p {
+        font-size:1em;
+        text-indent: 1em;
+        line-height: 1.35;
+    }
+    p.question {
+        font-size:.95em;
+    }   
+    section.inset.right.photoonly {
+        width: 36%;
+        margin:1em 5%;
+    }    
+    .centerphoto {
+        margin:0 0 1.5em;
+    } 
+    .centerphoto2 {
+        margin:2em 0 1.5em;
+    }
+    .chartphoto {
+        width:60%;
+        margin:0 20% 2em;
+    }
+    .centerphoto2.charts {
+         margin:0 auto 3em;
+    }
+    div.row .sources{
+        margin:-2em 5% 0;
+        width: 90%;
+    }   
+    section.inset.right {
+        padding:1em;
+        width: 94%;
+    }
+    section.inset h3.subheading {
+        font-size:1.35em;
+    }
+    section.inset p {
+        font-size:1em;
+        width:100%;
+    }
+    section.inset p.byline {
+        font-size:1em;
+    }
+    section.inset p.lead {
+        font-size:.95em;
+    }
+    dialog,.reveal-modal{
+        margin-top:10%;
+    }
+    section.inset.right.modalload {
+        width:50%;
+        margin:1em 25%;
+    }
+    section.inset.right.modalload img {
+        margin:.5em 25% 0;
+    }
+    .infobox p, .infobox li     {
+        font-size:1em;
+    }
+    .infobox p.bylinebottom {
+        font-size:.95em;
+     }
+    .infobox p.byline.editorsnote {
+        font-size:1.1em;
+    }
+    .reveal-modal .close-reveal-modal {
+        width:.85em;
+        height:.85em;
+    }
+}
+
+/* ------------------------------------------ 480 px wide ------------------------------------------ */
+/** iPhone (landscape) **/
+@media screen and (max-width : 480px) {
+    
+    .opener div#title h1 {
+        font-size:2em;
+        bottom:5%;
+    }
+    .opener div#title h1 span{
+        font-size:46%;
+    }
+    .row2 {
+        margin-top:.5em;
+    }
+    p.blurb {
+        width:90%;
+        font-size:1.3em;
+    }
+    p.blurb span {
+        font-size:.75em;
+    }
+    .lowertitle h5 {
+        font-size:1em;
+        letter-spacing:0;
+        margin-top:1.5em;
+    }
+    div.title.lowertitle.main h2 {
+        font-size:2.25em;
+    }
+    div.title.lowertitle.secondary h3 {
+        font-size:1.85em;
+        margin:.5em auto -.5em;
+        padding-top:.5em;
+    }
+    div.title.lowertitle.tertiary h4 {
+        font-size:1.45em;
+        margin:.5em auto -1em;
+        line-height:1.15;
+    }
+    div.title.lowertitle.tertiary.tight h4 {
+        font-size:1.45em;
+      }
+    h3.subheading {
+        font-size:1.35em;
+        line-height:1.25;
+        margin:.75em auto 1em;
+        width:90%;
+    }
+    .centergallery.square {
+        width:100%;
+        max-height:100%;
+        margin-bottom:-2.5em;   
+    }
+    .centergallery button.slick-next {
+        right:-5%;
+        background-position:left 36%;
+        background-size:33%;        
+    }
+    .centergallery.square button.slick-next {
+        background-position:left 36%;
+        background-size:33%;
+    }
+    .centergallery button.slick-prev {
+        left:-5%;
+        background-position:right 36%;
+        background-size:33%;
+     }
+    .centergallery.square button.slick-prev {
+        background-position:right 36%;
+        background-size:33%;
+    }
+    p.byline {
+        padding-bottom:0;
+    }
+    p.lead {
+        font-size:1em;
+        width:90%;
+        line-height: 1.65;
+    }
+    section.authormug.inset.left.ender {
+        margin:5% 0;
+        width:100%;
+    }
+    p {
+        width:90%;
+        margin: 0 5%;
+    }
+    section.inset.right.photoonly {
+        width:50%;
+        margin:1em 25%;
+    }
+    .caption {
+        font-size:.95em;
+        line-height:1.35;
+        padding:.85em;
+    }
+    .caption span.captionhed {
+        font-size:.8em;
+    }
+    .caption span.photog {
+        font-size:.75em;
+    }
+    .centerphoto {
+        margin:0 0 1em;
+    }  
+    .centerphoto2 {
+        margin:1.5em 0 1em;
+    }
+    p.lead span.ledein {
+        font-size:1.25em;
+    }
+    p.byline.editorsnote {
+        margin-top:2em;
+        width:90%;
+        line-height:1.35;
+    }
+    section.inset.right {
+        margin:1em 3%;
+    }
+    section.inset section.authormug.inset.left.ender {
+        padding:0;
+        margin:1em 0 0;
+    }   
+    dialog,.reveal-modal{
+        margin-top:15%;
+        margin-left:5%;
+        width:90%;
+    }
+    section.inset.right.modalload {
+        width:70%;
+        margin:1em 15%;
+    }
+    section.inset.right.modalload img {
+        width:50%;
+        margin:.75em 25% 0;
+    }
+    .infobox p.bylinebottom {
+        font-size:.9em;
+    }
+    .infobox p.byline.editorsnote {
+        font-size:1em;
+        margin:2.5em auto 0;
+        line-height:1.45;
+    }   
+}
+
+/* ------------------------------------------ 360 px wide ------------------------------------------ */
 /** iPhone (potrait) **/
 @media screen and (max-width : 360px) {
+    
+    .opener div#title h1 span{
+        font-size:50%;
+    }   
+    div.title.lowertitle.main h2 {
+        margin:0 auto 1em;
+        padding-top:.25em;
+        width:90%;
+    }
+    div.title.lowertitle.tertiary h4 {
+        margin:.5em auto -1em;
+        line-height:1.15;
+    }
+    .centergallery button.slick-next {
+        right:-10%;
+    }
+    .centergallery button.slick-prev {
+        left:-10%;   
+     }
+    p.byline {
+        width:70%;
+        top:-1.65em;
+        font-size:1em;
+    }
+    p.lead {
+        font-size:.95em;
+        margin: -2% auto 2%;
+    }
+    p.lead.spaceabove {
+        margin-top:2em;
+    }
+    section.authormug.inset.left.ender img {
+        width: 25%;
+    }
+    p {
+        font-size:1em;
+        text-indent:1em;
+        line-height: 1.35;
+    }
+    p.question {
+        font-size:.95em;
+    }
+    div#footer-bar p.small {
+        max-width:50%;
+        text-align:left;
+    }
+    div#footer-bar ul.social {
+        right:1em;
+        left:auto;
+    }
+    section.inset.right.photoonly {
+        width: 70%;
+        margin:1em 15%;
+    }
+    .chartphoto {
+        width:70%;
+        margin:0 15% 2em;
+    }
+    .centerphoto2.charts {
+        width:90%;
+        margin:0 auto 3em;
+    }
+    div.row .sources {
+        margin:-2em 5% 0;
+        width: 90%;
+    }   
+    section.inset.right {
+        padding:1em;
+        width: 94%;
+    }
+    section.inset h3.subheading {
+        font-size:1.35em;
+    }
+    section.inset p {
+        font-size:1em;
+        width:100%;
+    }
+    section.inset p.byline {
+        font-size:1em;
+    }
+    section.inset p.lead {
+        font-size:.95em;
+    }
+    section.inset.right.modalload img {
+        width:50%;
+        margin:0 25%;
+    }
+    .infobox p, .infobox li {
+        font-size:1em;
+        line-height:1.45;
+    }
+    .infobox p.bylinebottom {
+        font-size:.85em;
+    }
+    .reveal-modal .close-reveal-modal {
+        width:.75em;
+        height:.75em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** iPhone (potrait) **/
+/*@media screen and (max-width : 360px) {
 	.opener div#title h1 {
        	font-size:2em;
 		letter-spacing:0;
@@ -1496,10 +2100,10 @@ div#footer-bar ul.social li {
 		width:.75em;
     	height:.75em;
 	}
-}
+}*/
 
 /** iPhone (landscape) **/
-@media screen and (min-width : 326px) and (max-width : 480px) {
+/*@media screen and (min-width : 326px) and (max-width : 480px) {
 	.opener div#title h1 {
         font-size:2em;
 		letter-spacing:0;
@@ -1905,10 +2509,10 @@ div#footer-bar ul.social li {
     	width:.85em;
    		height:.85em;
   	}
-}
+}*/
 
 /** iPad (portrait) **/
-@media screen and (min-width : 681px) and (max-width : 768px) {
+/*@media screen and (min-width : 681px) and (max-width : 768px) {
 	.opener div#title h1 {
         font-size:5em;
 		letter-spacing:0;
@@ -2065,10 +2669,10 @@ div#footer-bar ul.social li {
 		line-height:1.45;
 	}	
 }
-
+*/
 
 /** iPad (landscape) **/
-@media screen and (min-width : 769px) and (max-width : 1024px) {
+/*@media screen and (min-width : 769px) and (max-width : 1024px) {
 	.opener div#title h1 {
         font-size:6em;
 		letter-spacing:0;
@@ -2114,9 +2718,9 @@ div#footer-bar ul.social li {
  		margin-left:0;
 	}
 }
-
+*/
 /** Desktops and laptops **/
-@media only screen and (min-width : 1025px) and  (max-width : 1280px)  {
+/*@media only screen and (min-width : 1025px) and  (max-width : 1280px)  {
 	.opener div#title h1 {
         font-size:7em;
 		letter-spacing:0;
@@ -2125,12 +2729,12 @@ div#footer-bar ul.social li {
 	.opener div#title h1 span{
         font-size:27%;
     }
-}
+}*/
 
 /** Large screens **/
-@media only screen and (min-width : 1281px) {
+/*@media only screen and (min-width : 1281px) {
 
 
 
 
-}
+}*/
