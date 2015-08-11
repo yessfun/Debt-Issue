@@ -403,7 +403,7 @@ p span.ledein {
 	color:#000;	
 }
 p.lyrics {
-    text-indent: 0;
+    text-indent:0;
     padding-left:1em;
 }
 p.small {
@@ -414,6 +414,36 @@ p.small {
     font-weight:400;
 }
 
+/* --------------------- EXPAND/COLLAPSE BAR --------------------- */
+/* entry title */
+p.point-title {
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+    font-size:1.35em;
+    font-weight:300;
+    text-indent:0;
+    width:100%;
+    margin: 0 auto 2%;
+    padding:0 0 1% 0;
+    line-height: 2;
+    letter-spacing:1px;
+    text-align: center;
+    text-transform:uppercase;   
+}
+/* large orange numbers */
+p.point-title span.ledein {
+    font-size:1.35em;
+    font-weight:700;
+    text-indent:0;
+    color:#e38223;
+    width:100%;
+    margin: 0 auto 2%;
+    padding:0 0 1% 0;
+    line-height: 2;
+    letter-spacing:0;
+    text-align: center;
+    font-family: 'Alegreya', Georgia, Times, serif !important;
+    text-transform:none;    
+}
 
 /* --------------------- Quoteouts --------------------- */
 /* the quote */
@@ -532,17 +562,30 @@ section.authormug.inset.left p {
 }
 
 /* --------------------- Charts --------------------- */
-/* photo the runs besude/before chart */
-.chartphoto {
+/* left chart image */
+.chartleft {
+    position:relative;
 	float:left;
-	width:38%;
-	margin:0 2% 3em 10%;
+	width:50%;
+    padding:5px;
+	margin:auto;
+    margin-bottom: 7%;
 }
-/* chart column */
-.centerphoto2.charts {
-    width:300px;
-    padding:0;
-    margin:0 0 3em 52%;
+/* right chart image */
+.chartright {
+    position:relative;
+    float:right;
+    width:50%;
+    padding:5px;
+    margin:auto;
+    margin-bottom: 7%;
+}
+/* chart alone */
+.chartcenter{
+    padding:5px;
+    margin:auto;
+    margin-bottom: 7%;
+    width:45%;
 }
 
 /* --------------------- Slide show --------------------- */
