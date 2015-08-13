@@ -465,7 +465,6 @@ p.blurb span {
 	text-align: center;
     margin:1em auto 5em;
     font-weight:400;
-	font-style:italic;
 }
 p.blurb.insert {
    padding-bottom: 1.5em;
@@ -585,7 +584,7 @@ section.authormug.inset.left p {
     padding:5px;
     margin:auto;
     margin-bottom: 7%;
-    width:45%;
+    width:60%;
 }
 
 /* --------------------- Slide show --------------------- */
