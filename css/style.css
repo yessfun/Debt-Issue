@@ -610,11 +610,9 @@ section.authormug.inset.left p {
 }
 /* chart alone */
 .chartcenter{
-    /*padding:5px;*/
     margin:0 auto;
     margin-bottom: 7%;
-   /* width:60%;*/
-   max-width:300px;
+   max-width:382px;
 }
 
 /* --------------------- Slide show --------------------- */
@@ -637,7 +635,7 @@ section.authormug.inset.left p {
     margin:0 auto;	
 }
 .centergallery .columns {
-    padding:0 2em 2em;
+    padding:2em 2em 2em 2em;
 }
 .centergallery img {
     margin:0;
@@ -688,6 +686,31 @@ section.authormug.inset.left p {
 	background-size:26%;
 }
 
+/* --------------------- SLIDESHOW Captions --------------------- */
+.captionslideshow {
+    width:100%;
+    max-width:611px;
+    font-size:1.15em;
+    line-height:1.5;
+    color:rgba(0,0,0,0.6);
+    padding:1em;
+    margin:0;
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+    font-weight:400;
+    font-style:normal;
+    cursor:default; 
+    text-indent:0;
+    background-color:#f8f8f8;
+}
+.captionslideshow span.captionhed {
+    text-transform:uppercase;
+    font-size:.9em;
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+    letter-spacing:.05em;
+    font-weight:900;
+    padding-right:.2em;
+}
+
 /* --------------------- Captions --------------------- */
 .caption {
   	width:100%;
@@ -711,6 +734,8 @@ section.authormug.inset.left p {
     font-weight:900;
     padding-right:.2em;
 }
+
+
 /* credit */
 .caption span.photog {
     text-transform:uppercase;
