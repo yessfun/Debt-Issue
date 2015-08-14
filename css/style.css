@@ -582,7 +582,7 @@ section.authormug.inset.left p {
 /* chart alone */
 .chartcenter{
     padding:5px;
-    margin:auto;
+    margin:0 20%;
     margin-bottom: 7%;
     width:60%;
 }
