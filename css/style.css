@@ -224,7 +224,7 @@ div.title.lowertitle h3 {
 	font-weight:900;
 	text-transform: none;
     font-size:2.75em;
-    margin:3em auto 1em;
+    margin:3em auto 0;
     border-top:1px solid #aaa;
     padding-top:.65em;
     width:80%;
@@ -242,7 +242,7 @@ div.title.lowertitle.tertiary h4 {
 	width:70%;
 	color:#7b8ea3;
 }
-/* adjusts space when ertiary hedline appears above copy */
+/* adjusts space when tertiary hedline appears above copy */
 div.title.lowertitle.tertiary.tight h4 {
      font-size:2.25em;
 	 margin-top:0;
@@ -445,7 +445,7 @@ p.point-title span.ledein {
     text-transform:none;    
 }
 
-/* --------------------- Quoteouts --------------------- */
+/* --------------------- Plain Quoteouts --------------------- */
 /* the quote */
 p.blurb {
     font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif!important;
@@ -470,6 +470,35 @@ p.blurb.insert {
    padding-bottom: 1.5em;
 }
 p.blurb.inserttop {
+   padding-bottom: 1.5em;
+   margin-top:-1.75em;
+}
+
+/* --------------------- Cool Quoteouts --------------------- */
+/* the quote */
+p.blurbcool {
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif!important;
+    font-size:2.25em;
+    line-height:1.15;
+    color:#7b8ea3;
+    text-align: center;
+    margin:1em auto 5em;
+    font-weight:600;
+}
+/* the attribution */
+p.blurbcool span {
+    font-family: 'Alegreya', Georgia, Times, serif !important;
+    font-size:.65em;
+    line-height:1.15;
+    color:#e38223;
+    text-align: center;
+    margin:1em auto 5em;
+    font-weight:400;
+}
+p.blurbcool.insert {
+   padding-bottom: 1.5em;
+}
+p.blurbcool.inserttop {
    padding-bottom: 1.5em;
    margin-top:-1.75em;
 }
@@ -584,7 +613,7 @@ section.authormug.inset.left p {
     padding:5px;
     margin:0 20%;
     margin-bottom: 7%;
-    width:60%;
+    width:45%;
 }
 
 /* --------------------- Slide show --------------------- */
