@@ -107,11 +107,16 @@ div#name2 h2 {
 	background-image:url('../img/georgebars.jpg');
 }
 #vier{
-	background-image:url('../img/wayout.jpg');
+	background-image:url('../img/timeline.jpg');
 }
+#extr{
+    background-image:url('../img/wayout.jpg');
+}
+
 #funf{
 	background-image:url('../img/thegooddebts.jpg');
 }
+
 
 /* --------------------- Main Intro Head and Deck (on splash page) --------------------- */
 .opener div#title h1 {
@@ -230,6 +235,17 @@ div.title.lowertitle h3 {
     padding-bottom:.30em;
     width:80%;
 }
+div.title.lowertitle.main h3 span.subhed {
+    display:block;
+    font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+    font-weight:300;
+     font-size:66%;
+    margin:.4em auto 1em;
+ }
+ /* tightens space when deck is above the main hed */
+div.title.lowertitle.main h3 span.subhed.tighten {
+    margin-bottom:.10em;
+ }
 div.title.lowertitle.secondary h3 {
     margin:0 auto;
     margin-bottom:0;
@@ -404,6 +420,16 @@ p span.ledein {
 	font-weight:700;
 	text-transform:uppercase;
 	color:#000;	
+}
+/* allcap orange bigger ledein in copy block */
+p span.ledein2 {
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+    font-size:1.15em;
+    font-weight:700;
+    line-height: 1.55;
+    letter-spacing:.01em;
+    text-transform:uppercase;
+    color:#e38223; 
 }
 p.lyrics {
     text-indent:0;
@@ -1718,7 +1744,7 @@ div#footer-bar ul.social li {
          margin:0 auto 3em;
     }
     div.row .sources{
-        margin:-2em 5% 0;
+        margin:.5em 5% 0;
         width: 90%;
     }   
     section.inset.right {
@@ -1799,6 +1825,11 @@ div#footer-bar ul.social li {
     }
     div.title.lowertitle.main h2 {
         font-size:2.25em;
+    }
+    div.title.lowertitle.main h3 {
+        font-size:1.85em;
+        margin:.5em auto -.5em;
+        padding-top:.5em;
     }
     div.title.lowertitle.secondary h3 {
         font-size:1.85em;
@@ -1929,6 +1960,11 @@ div#footer-bar ul.social li {
         padding-top:.25em;
         width:90%;
     }
+        div.title.lowertitle.main h3 {
+        margin:0 auto 1em;
+        padding-top:.15em;
+        width:90%;
+    }
     div.title.lowertitle.tertiary h4 {
         margin:.5em auto -1em;
         line-height:1.15;
@@ -1983,7 +2019,7 @@ div#footer-bar ul.social li {
         margin:0 auto 3em;
     }
     div.row .sources {
-        margin:-2em 5% 0;
+        margin:1em 5% 0;
         width: 90%;
     }   
     section.inset.right {
