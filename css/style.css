@@ -979,8 +979,9 @@ section.inset.right.modalload img {
 .infobox p, .infobox li     {
     width:100%;
 	font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
-	text-indent:1.25em;
-	line-height:1.35;
+    font-size:1.15em;
+	text-indent:0em;
+	line-height:1.25;
     margin:0;
 }
 .infobox p.byline.editorsnote {

@@ -96,19 +96,11 @@
         
         <section class="top-bar-section">
 			<ul class="right">
-<!-- ======================= SINGLE DROPDOWN WITH SEVERAL SUB-ITEMS ======================= -->	
-				<li class="top-top has-dropdown"><a href="javascript:void(0);">Chapters</a>
-					<ul class="dropdown">
-						<li class="top-top"><a href="index.html">From the Editor</a></li>
-                        <li class="top-top"><a href="chapter1.html">Empowered by Debt</a></li>
-						<li class="top-top"><a href="chapter2.html">U.S. Debt Breakdown</a></li>
-						<li class="top-top"><a href="chapter3.html">Timeline of Debts Gone</a></li>
-						<li class="top-top"><a href="chapter4.html">The Way Out</a></li>
-						<li class="top-top"><a href="javascript:scrollDownTo('#chapter5part1',45);">The Good Debts</a></li>
-					</ul>
-				</li>
-				<li class="divider"></li>
-				<!-- end single dropdown example -->
+
+
+ <!-- This link reveals a modal window (the HTML is at the end of the page, below the footer) -->
+<li class="top-top"><a href="javascript:void(0);" data-reveal-id="toc">Contents</a></li>
+<!-- end link to modal window -->
 
 				<li class="divider"></li>
 
@@ -593,6 +585,49 @@
 	<div class="clear"></div>
 	</div>
 	<!-- end footer -->
+
+<!-- ======================= MODAL HTML ======================= --> 
+
+<div id="toc" class="reveal-modal credits-modal infobox" data-reveal>
+<div class="row">
+<div class="large-4 push-1 columns reverse">
+<h1>CONTENTS</h1>
+</div>
+<div class="large-6 pull-1 columns">
+
+<h5>From the Editors</h5>
+<p><strong><a href="http://apps.yesmagazine.org/the-debt-issue/index.html#editor">The Power of Debt</a></strong> </p> 
+
+<h5>Chapter 1: Empowered by Debt</h5>
+<p><strong><a href="http://apps.yesmagazine.org/the-debt-issue/index.html#chapter1part1">The $11.85 Trillion Burden We Need</a></strong> </p> 
+<p><strong><a href="http://apps.yesmagazine.org/the-debt-issue/index.html#chapter1part2">Me. Refuse to Pay?</a></strong> </p>
+<p><strong><a href="http://apps.yesmagazine.org/the-debt-issue/index.html#chapter1part3">Strength in Numbers</a></strong> </p>
+<p><strong><a href="http://apps.yesmagazine.org/the-debt-issue/index.html#5things">5 Things Creditors Wish You Didn't Know</a></strong> </p> 
+
+<h5>Chapter 2: Just the Facts</h5>
+<p><strong><a href="http://apps.yesmagazine.org/the-debt-issue/index.html#chapter2">How Did We Get So Much Debt?</a></strong> </p>
+
+<h5>Chapter 3: The Way Out - Timeline</h5>
+<p><strong><a href="http://apps.yesmagazine.org/the-debt-issue/index.html#chapter3">We've Done Debt Relief Before</a></strong> </p>
+
+<h5>Chapter 4: The Way Out</h5>
+<p><strong><a href="http://apps.yesmagazine.org/the-debt-issue/index.html#chapter4part1">The Giant Loan Cancellation Experiment</a></strong> </p>
+<p><strong><a href="http://apps.yesmagazine.org/the-debt-issue/index.html#chapter4part2">Essay: Elegy to Family Obligation</a></strong> </p>
+<p><strong><a href="http://apps.yesmagazine.org/the-debt-issue/index.html##debtsketchbook">Art: The Debt Sketchbook</a></strong> </p>
+<p><strong><a href="http://apps.yesmagazine.org/the-debt-issue/index.html#chapter4part4">Essay: Thoreau Was My Financial Adviser</a></strong> </p>
+
+<h5>Chapter 5: The Good Debts</h5>
+<p><strong><a href="http://apps.yesmagazine.org/the-debt-issue/index.html#chapter5part1">The Brighter Side of Debt</a></strong> </p>
+<p><strong><a href="http://apps.yesmagazine.org/the-debt-issue/index.html#chapter5part2">3 Ways to Homegrown Credit</a></strong> </p>
+
+<!--end modal -->
+</div>
+</div>
+
+
+<a class="close-reveal-modal"></a>
+</div>
+    
 
 <!-- ======================= JAVASCRIPT ======================= -->
 <script type="text/javascript" src="./js/foundation.min.js"></script>
