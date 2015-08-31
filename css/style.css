@@ -1787,6 +1787,9 @@ div#footer-bar ul.social li {
         width:.85em;
         height:.85em;
     }
+    .tiptonext {
+        padding-left:0;
+    }
 }
 
 /* ------------------------------------------ 480 px wide ------------------------------------------ */
